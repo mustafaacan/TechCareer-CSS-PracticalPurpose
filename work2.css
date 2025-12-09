@@ -12,4 +12,41 @@ p{
     letter-spacing: 2px;
     word-spacing: 3px;
     line-height: 1.5;
+
+    column-count: 3; /* text will be divided to 3 columns */
+    column-rule: 1px solid orange; /* line between columns */
+    column-gap: 10px; /* space between columns */
+}
+
+p.webkit {
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* limit to 3 lines then there will be 3 dots*/
+    overflow: hidden;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: none;
+
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    line-height: 1.2;
+
+    column-count: 2; /* text will be divided to 2 columns */
+}
+
+/* text-shadow and box-shadow */
+
+.div_class{
+    border: 1px solid #e93e3e;
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 7px 7px 5px gray;
+    border-radius: 10px 0px 10px 0px;
 }
