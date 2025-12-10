@@ -4,7 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Link, Hover, Cursor, Display, Visibility, Box-sizing</title>
-    <link rel="stylesheet" href="work4.css" />
+    <link rel="stylesheet" href="/work4.css" />
   </head>
-  <body></body>
+  <body>
+    <a id="click" class="a_link" href="#" target="_blank">Click Me</a>
+
+    <div id="hidden" class="hide">Hidden Box</div>
+
+    <script>
+      const link = document.getElementById("click");
+      const hiddenBox = document.getElementById("hidden");
+      let isVisible = false;
+
+      function toggleVisibility() {
+        isVisible = !isVisible;
+        isVisible
+          ? hiddenBox.classList.add("hidden-box")
+          : hiddenBox.classList.remove("hidden-box");
+      }
+
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        toggleVisibility();
+      });
+    </script>
+  </body>
 </html>
