@@ -1,0 +1,49 @@
+:root{
+    --main-color : white;
+    --main-bgcolor: black;
+
+}
+
+body{
+    color:var(--main-color);
+    background-color: var(--main-bgcolor);
+}
+
+img{
+    width: 20%;
+    margin: 10px;
+}
+
+.left{
+    float: left;
+}
+
+.rigth{
+    float: left;
+}
+
+.clear{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+div p{
+    color: blue;
+    background-color: antiquewhite;
+}
+
+p.last{
+    color: aqua;
+    background-color: var(--main-color);
+}
+
+p.last::before{
+    content: "FrontEnd  ";
+}
+
+p.last::after{
+    content: " development";
+}
+
