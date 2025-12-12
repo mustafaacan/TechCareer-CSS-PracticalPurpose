@@ -1,0 +1,23 @@
+img{
+    width: 20%;
+    margin: 10px;
+}
+
+.left{
+    float: left;
+}
+
+.rigth{
+    float: left;
+}
+
+.clear{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clip{
+    /*bana clip path örneği verir misin*/
+    clip-path: polygon(40% 0%, 100% 40%, 50% 100%, 0 50%);
+}
