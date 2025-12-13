@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.responsive{
+    flex-basis: 200px;
+    text-align: center;
+    height: auto;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 960px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .responsive {
+        width: 70%;
+        flex: 1 1 auto;
+        margin-bottom: 10px;
+    }
+}
