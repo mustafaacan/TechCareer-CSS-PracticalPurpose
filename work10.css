@@ -1,0 +1,51 @@
+#buttonID{
+    background-color: orange;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s; /* all properties will be efeccted */
+
+}
+
+#buttonID:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+
+#boxID{
+    width: 200px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    background-color: lightblue;
+    margin-top: 20px;
+    transition: background-color 1.5s ease; /* only background-color will be effected
+    ease about transition type. */
+}
+
+#boxID:hover{
+    background-color: rgb(46, 108, 46);
+    color:antiquewhite
+}
+
+
+
+#transformID{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 70px;
+    transition: all 0.8s ease-in-out; /* only transform will be effected */
+}
+
+#transformID:hover{
+    transform: rotate(45deg) scale(1.5) translate(50px, 50px);
+    color: whitesmoke;
+}
+
+
