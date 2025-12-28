@@ -1,3 +1,5 @@
+Just Practical Purposes for more example, please visit **https://www.techcareer.net/courses/sifirdan-ileri-duzey-web-programlama-html-5-css-3-bootstrap5-tailwind-javascript/**
+
 # CSS Educational Resources
 
 This repository contains various educational resources and examples related to CSS. It is designed for those who want to learn and practice CSS usage in web design and development, with examples ranging from basic to advanced concepts.
