@@ -1,0 +1,20 @@
+img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+#image{
+    background-image: linear-gradient(
+    to left,
+    rgba(13, 13, 147, 0.3),
+    rgba(3, 55, 3, 0.3)
+  ),
+  url("./assets/email.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:contain; 
+    height: 300px;
+    width: 50%;
+    margin: 20px auto;
+}
